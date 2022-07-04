@@ -25,4 +25,4 @@ MIT
 ---
 
 > GitHub [@HackingSgravato](https://github.com/HackingSgravato) &nbsp;&middot;&nbsp;
-> [Telegram](https://t.me/VisualStudio2022) &nbsp;&middot;&nbsp;
+> [Telegram](https://t.me/VisualStudio2022)

@@ -7,7 +7,7 @@
 <h4 align="center">Connect to aternos.org and manage your servers using telegram.</h4>
 
 <p align="center">
-  <a href="#Telegram>Telegram Bot</a> •
+  <a href="#Telegram">Telegram Bot</a> •
   <a href="#Features">Features</a> •
   <a href="#License">License</a>
 </p>

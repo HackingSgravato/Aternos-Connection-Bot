@@ -7,6 +7,7 @@
 <h4 align="center">Connect to aternos.org and manage your servers using telegram.</h4>
 
 <p align="center">
+  <a href="#Telegram>Telegram Bot</a> •
   <a href="#Features">Features</a> •
   <a href="#License">License</a>
 </p>
@@ -16,6 +17,10 @@
 * start server
 * stop server
 * manage more than one server
+
+
+## Telegram
+* use telegram bot clicking [here](https://t.me/Aternos_Connection_bot)
 
 
 ## License

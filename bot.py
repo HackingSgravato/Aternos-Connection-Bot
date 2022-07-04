@@ -29,14 +29,16 @@ def help(update, context):
 
 
 def username(update, context):
+    global _username
     _username = " ".join(context.args)
-    update.message.reply_text("Username inserito: " + _username)
+    update.message.reply_text("Username aggiornato: " + _username)
 
 
 
 def password(update, context):
+    global _password
     _password = " ".join(context.args)
-    update.message.reply_text("Password inserita: " + _password)
+    update.message.reply_text("Password aggiornata: " + _password)
 
 
 
@@ -61,6 +63,9 @@ def error(update, context):
 
 
 def login(update, context):
+    global aternos
+    global list_server
+    global choosen_server
     update.message.reply_text(f'accedendo al tuo account aternos\nUsername: {_username}\nPassword: {_password}')
     aternos = Client.from_credentials(_username, _password)
     update.message.reply_text('accesso effettuato')
@@ -70,6 +75,7 @@ def login(update, context):
 
 
 def select(update, context):
+    global choosen_server
     numero = " ".join(context.args)
     choosen_server = list_server[int(numero)]
     update.message.reply_text('Hai selezionato il server numero ' + numero)
